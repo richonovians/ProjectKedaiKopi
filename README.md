@@ -1,7 +1,7 @@
 # Kedai Kopi
 >Deskripsi Aplikasi.
 
-Selamat datang di website "KedaiKopi" - tempat di mana aroma kopi bertemu dengan kenangan yang indah!
+Selamat datang di website "Kedai Senja" - tempat di mana aroma kopi bertemu dengan kenangan yang indah!
 
 KedaiKopi adalah tempat yang menyatukan rasa kopi yang lezat dengan nuansa hangat dari kenangan masa lalu. Di sini, kami tidak hanya menyajikan kopi yang enak, tetapi juga menghadirkan suasana yang membumi dan nyaman, membuat setiap kunjungan Anda menjadi sebuah pengalaman yang tak terlupakan.
 
