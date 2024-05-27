@@ -6,54 +6,22 @@
         <h2>Produk <span>Kami</span></h2>
 
         <div class="row">
+            @foreach ($p as $data)
             <div class="menu-card">
-                <img src="gambar/espresso.jpg" alt="Espresso" class="menu-card-img">
-                <h3 class="menu-card-title">-ESPRESSO-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
+                <img src="data:image/jpeg;base64,{{ base64_encode($data->foto_produk) }}" alt="{{$data->nama_produk}}" class="menu-card-img">
+                <h3 class="menu-card-title"><a href="#" class="link-product">{{$data->nama_produk}}</a></h3>
+                <p class="menu-card-price">Rp. {{$data->harga_produk}}</p>
+                <!-- <a href="#" class="cta">Add to cart</a> -->
+
+                <form action="/keranjang/store" method="POST">
+                    @csrf
+                    <input type="hidden" value="{{$data->id}}" name="id_produk">
+                    <input type="number" value="1" min="1" class="qty" name="quantity"> <br>
+                    <input class="cta" type="submit" value="Add to Cart">
+                </form>
+
             </div>
-            <div class="menu-card">
-                <img src="gambar/mocha.jpg" alt="Mocha" class="menu-card-img">
-                <h3 class="menu-card-title">-MOCHA-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
-            </div>
-            <div class="menu-card">
-                <img src="gambar/latte.jpg" alt="cafe-latte" class="menu-card-img">
-                <h3 class="menu-card-title">-CAFE LATTE-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
-            </div>
-            <div class="menu-card">
-                <img src="gambar/macchiato.jpg" alt="macchiato" class="menu-card-img">
-                <h3 class="menu-card-title">-MACCHIATO-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
-            </div>
-            <div class="menu-card">
-                <img src="gambar/piccolo.jpg" alt="piccolo" class="menu-card-img">
-                <h3 class="menu-card-title">-PICCOLO-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
-            </div>
-            <div class="menu-card">
-                <img src="gambar/flat.jpg" alt="flat-white" class="menu-card-img">
-                <h3 class="menu-card-title">-FLAT WHITE-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
-            </div>
-            <div class="menu-card">
-                <img src="gambar/affogato.jpg" alt="affogato" class="menu-card-img">
-                <h3 class="menu-card-title">-AFFOGATO-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
-            </div>
-            <div class="menu-card">
-                <img src="gambar/americano.jpg" alt="americano" class="menu-card-img">
-                <h3 class="menu-card-title">-AMERICANO-</h3>
-                <p class="menu-card-price">IDR 15K</p>
-                <a href="#" class="cta">Add to cart</a>
-            </div>
+            @endforeach
         </div>
     </section>
     <!-- Menu Section End -->

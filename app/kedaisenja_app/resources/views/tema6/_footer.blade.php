@@ -12,6 +12,6 @@
         </div>
 
         <div class="credit">
-            <p>Created by <a href="#">kelompok kami.</a>~@2024</p>
+            <p>Created by <a href="#">kelompok 6.</a>~@2024</p>
         </div>
     </footer>

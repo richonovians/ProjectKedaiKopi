@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kedai Senja</title>
+    <link rel="icon" type="img/png" href="gambar/icons.png" sizes="16x16">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,9 +36,9 @@
     @yield('about')
     <!-- About end -->
 
-    <!-- Menu start -->
+    <!-- Produk start -->
     @yield('produk')
-    <!-- Menu end -->
+    <!-- Produk end -->
 
     <!-- Footer Start -->
     @include('tema6._footer')

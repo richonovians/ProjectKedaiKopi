@@ -17,9 +17,9 @@ Jadi, mari buat kenangan indah bersama kami di KedaiKopi - tempat di mana kopi d
 
 ## featur
 Sprint 1
-* menampilkan gambar-gambar daftar menu
+* menampilkan gambar-gambar daftar produk
 * informasi lokasi dan jam buka
-* Fitur pemesanan kopi
+* Fitur pembelian kopi online
 Sprint 2
 * ......
 

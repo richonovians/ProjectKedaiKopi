@@ -10,7 +10,15 @@
                 <div class="item-details">
                     <h3>Americano</h3>
                     <p>Rp. 15.000</p>
-                    <button class="remove-btn">Hapus</button>
+                    <i data-feather="trash-2" class="delete-btn"></i>
+                </div>
+            </div>
+            <!-- <div class="item">
+                <img src="gambar/latte.jpg" alt="Product 2">
+                <div class="item-details">
+                    <h3>Espresso</h3>
+                    <p>Rp. 15.000</p>
+                    <i data-feather="trash-2" class="delete-btn"></i>
                 </div>
             </div>
             <div class="item">
@@ -18,20 +26,20 @@
                 <div class="item-details">
                     <h3>Espresso</h3>
                     <p>Rp. 15.000</p>
-                    <button class="remove-btn">Hapus</button>
+                    <i data-feather="trash-2" class="delete-btn"></i>
                 </div>
             </div>
             <div class="item">
                 <img src="gambar/latte.jpg" alt="Product 2">
                 <div class="item-details">
-                    <h3>Product 2</h3>
+                    <h3>Espresso</h3>
                     <p>Rp. 15.000</p>
-                    <button class="remove-btn">Hapus</button>
+                    <i data-feather="trash-2" class="delete-btn"></i>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="total-price">
-            <h3>Total: Rp. 45.000</h3>
+            <h3>Total : Rp. 45.000</h3>
             <button class="checkout-btn">Checkout</button>
         </div>
     </section>
