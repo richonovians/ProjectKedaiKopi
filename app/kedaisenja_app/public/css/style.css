@@ -191,6 +191,7 @@ body {
 
 .about .row {
     display: flex;
+    padding-left: 50px;
 }
 
 .about .row .about-gambar {
@@ -209,10 +210,12 @@ body {
 .about .row .content h3 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
+    padding-left: 20px;
 }
 
 .about .row .content p {
     margin-bottom: 0.8rem;
+    padding-left: 20px;
     font-size: 1rem;
     font-weight: 300;
     font-style: italic;
@@ -257,6 +260,10 @@ body {
     margin-top: 1rem auto 0.5rem;
 }
 
+.menu-card-title {
+    margin-top: 1rem;
+}
+
 .link-product {
     color: #fff;
 }
@@ -282,30 +289,55 @@ body {
     text-decoration: underline;
 }
 
-input.qty {
-    margin-top: 0.5rem;
-    width: 35px;
-    height: 20px;
-    font-size: 14px;
-    padding: 1px 0px 1px 8px;
-    border-radius: 5px;
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    padding-left: 87px;
+    padding-top: 10px;
 }
 
+.quantity-controls button {
+    padding: 0px 10px;
+    margin: 0 7px;
+    background-color: #323131;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.quantity-controls input {
+    text-align: center;
+    width: 40px;
+    padding: 6px 0;
+    border-radius: 6px;
+    background-color: #323131;
+    color: #fff;
+}
+
+.quantity-controls button:hover {
+    background-color: #242424;
+}
+
+.quantity-controls input:hover {
+    background-color: #242424;
+}
 
 /* Kerajang Section */
 .keranjang {
     max-width: 800px;
-    max-height: 70vh;
+    min-height: 460px;
+    max-height: 460px;
     margin: 8rem auto 5rem;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow-y: auto;
 }
 
 .kr {
+    position: absolute;
     text-align: center;
+    margin-left: 325px;
     color: #010101;
 }
 
@@ -323,6 +355,7 @@ input.qty {
     width: 100px;
     height: auto;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 .item-details {
@@ -335,19 +368,50 @@ input.qty {
 }
 
 .item-details p {
-    margin: 5px 0;
+    margin: 2px 0;
     color: #010101;
+}
+
+.item-details p span {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.minus-Btn {
+    font-size: 25px; 
+    padding: 0px 10px 0px 10px;
+    margin: 1px 5px 0px 0px;   
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.plus-Btn {
+    font-size: 20px; 
+    padding: 0px 10px 0px 10px;
+    margin: 1px 0px 0px 5px;   
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.minus-Btn:hover {
+    background-color: #cdcdcd;
+}
+
+.plus-Btn:hover {
+    background-color: #cdcdcd;
 }
 
 .delete-btn {
     color: #010101;
     margin-top: 0.3rem;
+    background-color: red;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-weight: 400;
 }
 
 .delete-btn:hover {
-    background-color: red;
-    border-radius: 4px;
-    padding: 3px;
+    background-color: rgb(208, 1, 1);
 }
 
 .total-price {
@@ -360,6 +424,7 @@ input.qty {
     background-color: #4CAF50;
     color: white;
     margin-top: 5px;
+    margin-bottom: 5px;
     padding: 10px 20px;
     font-weight: bold;
     border: none;
@@ -369,6 +434,81 @@ input.qty {
 
 .checkout-btn:hover {
     background-color: #269f2c;
+}
+
+.sticky-footer {
+    position: absolute;
+    bottom: 25px;
+    margin-left: 580px;
+}
+
+/* Location */
+.location {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 16px;
+}
+
+.card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #010101;
+}
+
+.card-description {
+    margin: 8px 0;
+    color: #555;
+}
+
+.card-link {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.card-time {
+    color: #888;
+    margin-top: 8px;
+}
+
+.map {
+    padding-top: 7px;
+    color: #fc2727;
+}
+
+.clock {
+    padding-top: 7px;
+    color: #269f2c;
 }
 
 

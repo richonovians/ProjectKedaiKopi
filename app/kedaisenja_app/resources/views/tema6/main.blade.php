@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Kedai Senja</title>
     <link rel="icon" type="img/png" href="gambar/icons.png" sizes="16x16">
 
@@ -39,6 +40,10 @@
     <!-- Produk start -->
     @yield('produk')
     <!-- Produk end -->
+
+    <!-- Menu start -->
+    @yield('menu')
+    <!-- Menu end -->
 
     <!-- Footer Start -->
     @include('tema6._footer')

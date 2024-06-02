@@ -25,6 +25,32 @@
                 Mengapa harus kopi kami? Karena kami tak tergantikan.</p>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Store <span>Kami</span></h2>
+
+        <div class="location">
+            <div class="card">
+                <img src="gambar/gambar 12.jpg" alt="A.H Nasution" class="card-picture">
+                <div class="card-content">
+                    <h3 class="card-title">A.H Nasution</h3>
+                    <p class="card-description"><i data-feather="map-pin" class="map"></i> Kedai Senja - JL. AH.Nasution Pangkalan Masyhur, Kec. Taman, Kota Madiun, Jawa Timur</p>
+                    <a href="#" class="card-link">See on Google Maps</a>
+                    <p class="card-time"><i data-feather="clock" class="clock"></i> 08:00 - 23:00</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="gambar/gambar 18.jpg" alt="A.H Nasution" class="card-picture">
+                <div class="card-content">
+                    <h3 class="card-title">Adam Malik</h3>
+                    <p class="card-description"><i data-feather="map-pin" class="map"></i> Kedai Senja - Jl. H Adam Malik, Kel. Silalas, Kec. Manguharjo, Kota Madiun, Jawa Timur</p>
+                    <a href="#" class="card-link">See on Google Maps</a>
+                    <p class="card-time"><i data-feather="clock" class="clock"></i> 08:00 - 23:00</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- About Section End -->
 @endsection

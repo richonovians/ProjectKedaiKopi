@@ -8,6 +8,7 @@
         <div class="links">
             <a href="/">Home</a>
             <a href="/about">Tentang Kami</a>
+            <a href="/menu">Menu Kami</a>
             <a href="/produk">Produk</a>
         </div>
 
